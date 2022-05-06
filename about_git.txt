@@ -1,0 +1,183 @@
+git important commands:
+-------------------------
+
+git init
+
+git clone "gitrepo"
+
+git branch -a
+
+git checkout branchname
+
+git status
+
+git add .
+
+git commit -m ""
+
+git push
+
+git pull
+
+git pull origin "branch"
+
+git fetch
+
+git merge
+
+git reset --hard (remove all changes and bring to original)
+
+git reset Head~3 - (coming back to staging from un-staging)
+
+
+Before git?
+------------
+Scenario 1:
+------------
+you written/developed a project? where will we save it?
+ - we will save in our computer.
+ 
+if the computer/laptop is chrashed?
+ - all the work is gone.
+ 
+Scenario 2:
+-------------
+Multiple developers working on a project? how they co-ordinate each other and merge the code?
+
+it is difficult to collaborate each other in a bigger projects
+
+=====================================================================================
+
+Central repository (SVN) - it required intranet - with in the company - same net work.
+
+server - where we will maintain the code
+client/each developer - he will push his code to sever. - if any conflicits with other developers code
+he will resolve manually by seeing differences
+
+------------------------------------------------------------------------------------------
+Distributed repository ? GIT - where we can access across the globe
+	it contains 2 parts:
+	github - server
+	git client - that is for developer - so we need to install in each and every machine
+
+-> For Every Project -  They will create a repository in server (git hub).
+						short name for that repository (git repo).
+						it is also called as "origin".
+						
+-> git client : it is a local copy in developer's machine where project is created.
+example - our eclipse project creation :
+G:\SeleniumTrainingFromYesmSystems_morningbatch_1\practicals\seleniumpracticals\seleniumbasics
+			
+		
+in local - there are 2 parts virtually (we can't see directly)
+		we can see only from "git bash"  (for this we have to install - git client)
+		2 parts: - we can see these below 2 parts only by git commands.
+			unstaging  (temperory - before commit)
+			staging		(permanent - after commit)
+==========================================================================================
+In java teminology - it's a project in our machine
+in windows terminology - it's a folder
+in git terminology - local repository  (git staging, unstaging)
+==========================================================================================
+How to register in github.com?
+	open browser?
+	launch github.com 
+	click on signup
+	give the relevant details
+	active from the mail which we receive.
+-------------------------------------------------------------------------------------
+create a project in a github.com - server (seleniumbasics)
+
+=====================================================================================
+we have to install client, that helps us to connect our local machine code with server(github)
+
+download the clinet from the following url:
+https://git-scm.com/download/win
+
+install - it by double clicking on that downloaded gitclient "Git-2.36.0-64-bit.exe" file.
+=====================================================================================
+
+first - it's just a folder
+we have to  make it git compliant
+
+git init  - the normal folder becomes a branch called master
+=======================
+
+git clone ""
+
+=======================
+
+
+git status
+	- it will tell you whether you have any unstaging files before add (red color)
+	- it will show green color staging after add
+	- if not showing colored files - then all the files are committed.
+============================================================================
+to add to green color staging from red color unstaging
+
+git add .
+
+============================================================================
+to make staging file to local commited files - we should commit.
+
+git commit -m "first commit of seleniumbasics project"
+
+note:= only the committed files will go to the origin/server/github
+===========================================================================
+we should send our code to the server
+
+for that - first we will change our master name to main as name
+
+git branch -m main
+=============================================================================
+to see all barnches
+
+git branch -a
+==============================================================================
+what is the branch?
+
+- it is clone copy of either master or our own branches
+===============================================================================
+How to shift between the branches?
+
+- git checkout "branchname"
+===============================================================================
+Note:- any changes done in one branch won't effect in another branch, 
+to get those changes of other branch we need to merge the other branch changes
+- git merge "anotherbranch"
+===============================================================================
+to connect the local branch to orgin/github/server
+
+git remote add origin https://github.com/javalaya1/seleniumbasics.git
+==============================================================================
+how to send the local code to the server?
+git push -u origin main 
+
+-- it will send first time a request to a manager - to get permission
+==============================================================================
+
+How other team members take the code from the server git location to local machine
+
+--> create any folder in any location - G:\SeleniumTrainingFromYesmSystems_morningbatch_1\practicals\gitseleniumpracticals
+
+-->  go to that folder - right click - select git bash here
+
+-->  make that folder as git compliant  - git init.
+
+--> change the name from master to main to make the folder as gender-neutral
+git branch -m main
+
+--> to take the code from the server to the local - for the first time by team members
+git clone https://github.com/javalaya1/seleniumbasics.git
+
+===========================================================================================
+
+
+
+
+
+
+
+
+
+
