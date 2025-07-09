@@ -1,33 +1,33 @@
 git important commands:
 -------------------------
 
-git init
+1.	git init
 
-git clone "gitrepo"
+2.	git clone "gitrepo"
 
-git branch -a
+3.	git branch -a
 
-git checkout branchname
+4.	git checkout branchname
 
-git status
+5.	git status
 
-git add .
+6.	git add .
 
-git commit -m ""
+7.	git commit -m ""
 
-git push
+8.	git push
 
-git pull
+9.	git pull
 
-git pull origin "branch"
+10.	git pull origin "branch"
 
-git fetch
+11.	git fetch
 
-git merge
+12.	git merge
 
-git reset --hard (remove all changes and bring to original)
+13.	git reset --hard (remove all changes and bring to original)
 
-git reset Head~3 - (coming back to staging from un-staging)
+14.	git reset Head~3 - (coming back to staging from un-staging)
 
 
 Before git?
@@ -142,7 +142,7 @@ How to shift between the branches?
 
 - git checkout "branchname"
 ===============================================================================
-Note:- any changes done in one branch won't effect in another branch, 
+Note:- a EY GLOBAL DELIVERY SERVICES INDIA LLP; 10th floor, Capita Land block A, International Tech Park, Plot No. 17/2, Software Unit Layout, Madhapur, Hyderabad, Telangana – 500081, Indiany changes done in one branch won't effect in another branch, 
 to get those changes of other branch we need to merge the other branch changes
 - git merge "anotherbranch"
 ===============================================================================
