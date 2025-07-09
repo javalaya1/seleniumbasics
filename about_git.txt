@@ -79,24 +79,23 @@ In java teminology - it's a project in our machine
 in windows terminology - it's a folder
 in git terminology - local repository  (git staging, unstaging)
 ==========================================================================================
-How to register in github.com?
+1.	How to register in github.com?
 	open browser?
 	launch github.com 
 	click on signup
 	give the relevant details
 	active from the mail which we receive.
 -------------------------------------------------------------------------------------
-create a project in a github.com - server (seleniumbasics)
+2.	create a project in a github.com - server (seleniumbasics)
 
 =====================================================================================
-we have to install client, that helps us to connect our local machine code with server(github)
+3.	we have to install client, that helps us to connect our local machine code with server(github)
 
 download the clinet from the following url:
 https://git-scm.com/download/win
 
 install - it by double clicking on that downloaded gitclient "Git-2.36.0-64-bit.exe" file.
 =====================================================================================
-
 first - it's just a folder
 we have to  make it git compliant
 
