@@ -24,6 +24,7 @@ public class OpenUrl_Type_1_Using_GetMethod {
 		int j = 20;
 
 		StringBuffer sb = new StringBuffer("Recreate 5");
+		StringBuilder sb2 = new StringBuilder("RECREATE 6");
 	}
 	
 }
