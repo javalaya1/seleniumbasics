@@ -18,6 +18,10 @@ public class OpenUrl_Type_1_Using_GetMethod {
 		dd.quit();
 		
 		int i = 10;
+
 		String s = "Hi";
+
+		int j = 20;
 	}
+	
 }
