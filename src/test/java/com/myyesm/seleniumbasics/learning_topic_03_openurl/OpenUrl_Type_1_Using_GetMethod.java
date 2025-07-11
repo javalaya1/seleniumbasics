@@ -22,16 +22,6 @@ public class OpenUrl_Type_1_Using_GetMethod {
 		String s = "Hi";
 
 		int j = 20;
-		
-		bollean status = false;
-
-		int k = 30;
-
-		Number n = 100;
-
-		Number change = 3;
-		
-		CharSequence cs = "200";
 	}
 	
 }
