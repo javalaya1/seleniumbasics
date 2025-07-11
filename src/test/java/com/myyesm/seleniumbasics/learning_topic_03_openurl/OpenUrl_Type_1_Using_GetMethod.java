@@ -26,6 +26,8 @@ public class OpenUrl_Type_1_Using_GetMethod {
 		bollean status = false;
 
 		int k = 30;
+
+		Number n = 100;
 	}
 	
 }
