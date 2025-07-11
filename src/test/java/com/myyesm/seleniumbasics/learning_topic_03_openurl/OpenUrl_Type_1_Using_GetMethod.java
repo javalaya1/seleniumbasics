@@ -28,6 +28,8 @@ public class OpenUrl_Type_1_Using_GetMethod {
 		int k = 30;
 
 		Number n = 100;
+
+		Number change = 3;
 	}
 	
 }
