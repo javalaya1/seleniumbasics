@@ -22,6 +22,8 @@ public class OpenUrl_Type_1_Using_GetMethod {
 		String s = "Hi";
 
 		int j = 20;
+
+		bollean status = false;
 	}
 	
 }
