@@ -30,6 +30,8 @@ public class OpenUrl_Type_1_Using_GetMethod {
 		Number n = 100;
 
 		Number change = 3;
+		
+		CharSequence cs = "200";
 	}
 	
 }
