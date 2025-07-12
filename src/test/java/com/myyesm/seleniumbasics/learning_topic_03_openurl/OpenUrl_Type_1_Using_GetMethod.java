@@ -16,16 +16,6 @@ public class OpenUrl_Type_1_Using_GetMethod {
 		Thread.sleep(5000);
 				
 		dd.quit();
-		
-		int i = 10;
-
-		String s = "Hi";
-
-		int j = 20;
-
-		StringBuffer sb = new StringBuffer("Recreate 5");
-		StringBuilder sb2 = new StringBuilder("RECREATE 6");
-		Number n = 1000;
 	}
 	
 }
